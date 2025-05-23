@@ -435,5 +435,46 @@ footer nav{
         border: none;
     }
 
+    .servicos-container{
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .servicos-item{
+        height: 260px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .servicos-item p {
+        width: 330px;
+    }
+
+    footer nav{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        gap: 32px;
+    }
+
+    .nav-item{
+        padding: 0;
+        height: auto;
+    }
+
+    .nav-item:nth-child(2){
+        display: none;
+    }
+
+    .social li{
+        justify-content: end;
+    }
+
+    .copy-right{
+        margin-bottom: 64px;
+    }
+
 
 }
